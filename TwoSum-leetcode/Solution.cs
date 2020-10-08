@@ -20,7 +20,8 @@ namespace TwoSum_leetcode
                 }
                 else
                 {
-                    dict.Add(nums[i], i);
+                    dict.TryAdd(nums[i], i);
+                    // dict.Add(nums[i], i);
                 }
             }
             
